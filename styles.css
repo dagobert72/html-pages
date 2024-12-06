@@ -1,0 +1,40 @@
+body {
+font-famly: Arial, sans-serif;
+}
+
+div label{
+font-family: Cursive;
+}
+
+h1{
+font-size: large;
+}
+
+.instruction {
+color: red;
+text-aling: center;
+}
+div in put[name="element"] + label {
+margin-left: 15px;
+}
+
+.button-container{
+display: flex;
+gab: 15px;
+justify-content: center;
+padding: 20px;
+}
+
+.button-container button[type="submit"] {
+background-color: green;
+color: white;
+}
+
+button:hover {
+transform: scale(1.10);
+cursor: pointer;
+}
+
+button:focus {
+outline: 2px solid red;
+}
